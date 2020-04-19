@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Dog d1;
         Toast.makeText(this, "TestGit2", Toast.LENGTH_SHORT).show();
     }
 }
